@@ -1,0 +1,49 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+/* Form and Container Styles */
+form,
+.interactive-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Elements */
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    width: 100%;
+}
+
+/* Utility Classes */
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
